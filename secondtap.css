@@ -1,0 +1,46 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.bg-image {
+  /* full height */
+  height: 50%;
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+/* images used */
+.img1 { background-image: url("p1.jpg"); }
+.img2 { background-image: url("p2.jpg"); }
+.img3 { background-image: url("p3.jpg"); }
+.img4 { background-image: url("p4.jpg"); }
+.img5 { background-image: url("p5.jpg"); }
+.img6 { background-image: url("p6.jpg"); }
+/* position text in the middle of the page*/
+.bg-text {
+  background-color: rgb(0,0,0);/* fallback color*/
+  background-color: rgba(0,0,0 ,0.4);/* black w/opacity/see-through*/
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border: 10px solid #f1f1f1;
+  position: absolute; /* Stay fixed */
+  top: 150%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  z-index: 2;
+  width: 1000px;
+  padding: 50px;
+  text-align: center;
+}
+h1 {
+    font-family: 'Sofia', cursive;
+    text-decoration: underline;
+}
+p {
+  font-family: 'Shippori Mincho B1', serif;
+}
